@@ -1,11 +1,5 @@
 # AnimeExplorer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
-
-## Development server
-
-## About AnimeExplorer
-
 AnimeExplorer is a web application designed to help users explore and discover information about their favorite anime series and movies. Built with Angular, this project leverages modern web development practices to deliver a fast and responsive user experience.
 
 ### Features
