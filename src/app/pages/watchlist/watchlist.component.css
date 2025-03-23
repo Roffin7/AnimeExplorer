@@ -1,0 +1,90 @@
+.text-center{
+    margin-bottom: 40px;
+}
+
+/* 🌟 Container */
+.container {
+    padding: 40px 20px;
+}
+
+/* 🃏 Card Styling */
+.card {
+    max-width: 320px;
+    background: #1a102b;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(170, 85, 255, 0.15);
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(255, 105, 180, 0.25);
+}
+
+/* 📸 Image Styling */
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+/* 📦 Card Body */
+.card-body {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 🔠 Title */
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff66ff;
+}
+
+/* 📖 Description */
+.card-text {
+    font-size: 0.9rem;
+    color: #d1b3ff;
+}
+
+/* 🎭 Genre */
+.text-muted {
+    color: #a47fff !important;
+}
+
+/* 🔘 Buttons */
+.card-body .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    margin-top: 8px;  /* Adds space between buttons */
+    transition: 0.3s ease;
+}
+
+/* View Details Button */
+.btn-primary {
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    transform: scale(1.05);
+}
+
+/* Watchlist Button */
+.btn-danger {
+    background: linear-gradient(90deg, #ffa500, #ff6600);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(90deg, #ffa500, #ff6600);
+    transform: scale(1.05);
+}

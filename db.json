@@ -1,0 +1,499 @@
+{
+  "anime": [
+    {
+      "id": "1",
+      "title": "Naruto",
+      "imageUrl": "naruto.jpg",
+      "description": "A young ninja seeks recognition and dreams of becoming the Hokage.",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Shounen"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Kaiju No. 8",
+      "imageUrl": "kaiju.jpg",
+      "description": "A man transforms into a Kaiju to fight against monstrous threats.",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Supernatural"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Re:Zero",
+      "imageUrl": "rezero.jpg",
+      "description": "A boy is transported to another world and discovers his power to rewind time.",
+      "genre": [
+        "Fantasy",
+        "Drama",
+        "Isekai"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Takagi-san",
+      "imageUrl": "takagisan.jpg",
+      "description": "A middle school boy is constantly teased by his clever classmate.",
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Slice of Life"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Chainsaw Man",
+      "imageUrl": "chainsawman.jpg",
+      "description": "A young man merges with his chainsaw devil pet to hunt demons.",
+      "genre": [
+        "Action",
+        "Horror",
+        "Supernatural"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "One Punch Man",
+      "imageUrl": "onepunchman.jpg",
+      "description": "A hero who can defeat any enemy with a single punch seeks a real challenge.",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Superhero"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Haikyuu!!",
+      "imageUrl": "haiku.jpg",
+      "description": "A passionate young volleyball player dreams of becoming the best.",
+      "genre": [
+        "Sports",
+        "Drama",
+        "Shounen"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "86",
+      "imageUrl": "86.jpg",
+      "description": "In a war-torn future, young soldiers fight against unmanned war machines.",
+      "genre": [
+        "Mecha",
+        "Sci-Fi",
+        "Drama"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Bleach",
+      "imageUrl": "bleach.jpg",
+      "description": "A teenager gains Soul Reaper powers and battles evil spirits.",
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Shounen"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "One Piece",
+      "imageUrl": "onepiece.jpg",
+      "description": "A pirate and his crew search for the ultimate treasure, the One Piece.",
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Shounen"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Cowboy Bebop",
+      "imageUrl": "cowboy_bebop.jpg",
+      "description": "A bounty hunter and his crew take on dangerous jobs across space.",
+      "genre": [
+        "Sci-Fi",
+        "Action",
+        "Noir"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Vinland Saga",
+      "imageUrl": "vinlandsaga.jpg",
+      "description": "A Viking warrior seeks revenge in a brutal historical adventure.",
+      "genre": [
+        "Historical",
+        "Action",
+        "Drama"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Code Geass",
+      "imageUrl": "codegeases.jpg",
+      "description": "A young prince gains a mysterious power and leads a rebellion.",
+      "genre": [
+        "Mecha",
+        "Sci-Fi",
+        "Drama"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Hunter x Hunter",
+      "imageUrl": "hxh.jpg",
+      "description": "A boy embarks on a journey to find his long-lost father.",
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Shounen"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Attack on Titan",
+      "imageUrl": "aot.jpg",
+      "description": "Humanity fights for survival against giant humanoid Titans.",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Horror"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Steins;Gate",
+      "imageUrl": "steinsgate.jpg",
+      "description": "A group of friends discover time travel with dangerous consequences.",
+      "genre": [
+        "Sci-Fi",
+        "Thriller",
+        "Drama"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "imageUrl": "fmab.jpg",
+      "description": "Two brothers use alchemy to search for the Philosopher's Stone.",
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Drama"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Frieren: Beyond Journey’s End",
+      "imageUrl": "frieren.jpg",
+      "description": "An elf mage reflects on the meaning of life after her party's journey ends.",
+      "genre": [
+        "Fantasy",
+        "Drama",
+        "Adventure"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Solo Leveling",
+      "imageUrl": "sl.jpg",
+      "description": "A weak hunter gains a system that allows him to level up infinitely.",
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Isekai"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Kusuriya no Hitorigoto",
+      "imageUrl": "Kusuriya_no_Hitorigoto.jpg",
+      "description": "A young apothecary solves mysteries in the imperial court.",
+      "genre": [
+        "Mystery",
+        "Historical",
+        "Drama"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "title": "Naruto",
+      "imageUrl": "naruto.jpg",
+      "description": "Naruto Uzumaki, a young ninja from the Hidden Leaf Village, dreams of becoming the Hokage, the leader of his village. Despite being ostracized due to the Nine-Tails Fox sealed within him, Naruto's determination, courage, and unwavering belief in himself inspire those around him. Along his journey, he forms strong bonds with his teammates, Sasuke Uchiha and Sakura Haruno, and faces numerous challenges, including powerful enemies like Orochimaru and the Akatsuki organization. Naruto's story is one of perseverance, friendship, and the pursuit of one's dreams.",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Shounen"
+      ],
+      "episodes": "720+",
+      "rating": 8.2,
+      "releaseYear": 2002,
+      "studio": "Pierrot",
+      "mainCharacter": "Naruto Uzumaki",
+      "status": "Completed",
+      "theme": "Perseverance and Friendship",
+      "antagonist": "Kaguya Otsutsuki",
+      "openingSong": "R★O★C★K★S by Hound Dog",
+      "mangaAuthor": "Masashi Kishimoto",
+      "popularityRank": 5,
+      "awards": [
+        "Tokyo Anime Award 2003"
+      ],
+      "relatedAnime": [
+        "Naruto Shippuden",
+        "Boruto: Naruto Next Generations"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Kaiju No. 8",
+      "imageUrl": "kaiju.jpg",
+      "description": "Kaiju No. 8 follows Kafka Hibino, a man who once dreamed of joining the Defense Force to fight against monstrous Kaiju that threaten humanity. However, life takes an unexpected turn when Kafka gains the ability to transform into a Kaiju himself. Struggling to balance his human identity and newfound powers, Kafka joins the Defense Force to protect humanity while hiding his secret. The series explores themes of strength, identity, and the challenges of living a double life.",
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Supernatural"
+      ],
+      "episodes": "24",
+      "rating": 8,
+      "releaseYear": 2024,
+      "studio": "Production I.G",
+      "mainCharacter": "Kafka Hibino",
+      "status": "Ongoing",
+      "theme": "Strength and Identity",
+      "antagonist": "Kaiju No. 9",
+      "openingSong": "Kaiju no Uta by Unknown",
+      "mangaAuthor": "Naoya Matsumoto",
+      "popularityRank": 20,
+      "awards": [
+        "Next Manga Award 2021"
+      ],
+      "relatedAnime": []
+    },
+    {
+      "id": "3",
+      "title": "Re:Zero",
+      "imageUrl": "rezero.jpg",
+      "description": "Re:Zero tells the story of Subaru Natsuki, an ordinary young man who is suddenly transported to a fantasy world. He discovers that he has the unique ability to rewind time upon his death, allowing him to relive events and change their outcomes. However, this power comes at a great emotional and physical cost. As Subaru navigates this new world, he forms relationships with various characters, including the half-elf Emilia, and faces numerous challenges, including deadly enemies and moral dilemmas. The series delves into themes of despair, redemption, and the consequences of one's choices.",
+      "genre": [
+        "Fantasy",
+        "Drama",
+        "Isekai"
+      ],
+      "episodes": "50",
+      "rating": 8.5,
+      "releaseYear": 2016,
+      "studio": "White Fox",
+      "mainCharacter": "Subaru Natsuki",
+      "status": "Ongoing",
+      "theme": "Despair and Redemption",
+      "antagonist": "Satella",
+      "openingSong": "Redo by Konomi Suzuki",
+      "mangaAuthor": "Tappei Nagatsuki",
+      "popularityRank": 12,
+      "awards": [
+        "Sugoi Japan Award 2017"
+      ],
+      "relatedAnime": [
+        "Re:Zero Season 2"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Takagi-san",
+      "imageUrl": "takagisan.jpg",
+      "description": "Takagi-san is a heartwarming story about Nishikata, a middle school boy who is constantly teased by his clever and mischievous classmate, Takagi. Despite his best efforts to outwit her, Takagi always manages to stay one step ahead, leaving Nishikata flustered and determined to win. The series captures the innocent and playful dynamics of their relationship, showcasing moments of humor, friendship, and budding romance. Through their interactions, viewers are reminded of the joys and challenges of young love.",
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Slice of Life"
+      ],
+      "episodes": "36",
+      "rating": 8.1,
+      "releaseYear": 2018,
+      "studio": "Shin-Ei Animation",
+      "mainCharacter": "Takagi",
+      "status": "Completed",
+      "theme": "Innocent Love",
+      "antagonist": "None",
+      "openingSong": "Iwanai kedo ne. by Yuiko Ohara",
+      "mangaAuthor": "Sōichirō Yamamoto",
+      "popularityRank": 30,
+      "awards": [],
+      "relatedAnime": [
+        "Takagi-san Season 2",
+        "Takagi-san Movie"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Chainsaw Man",
+      "imageUrl": "chainsawman.jpg",
+      "description": "Chainsaw Man follows Denji, a young man burdened by debt and struggling to survive. After merging with his pet devil, Pochita, Denji gains the ability to transform parts of his body into chainsaws. He joins the Public Safety Devil Hunters to fight against dangerous devils while pursuing his simple dreams of a better life. The series is a dark and gritty exploration of survival, ambition, and the human condition, filled with intense action and emotional depth.",
+      "genre": [
+        "Action",
+        "Horror",
+        "Supernatural"
+      ],
+      "episodes": "12",
+      "rating": 8.7,
+      "releaseYear": 2022,
+      "studio": "MAPPA",
+      "mainCharacter": "Denji",
+      "status": "Ongoing",
+      "theme": "Survival and Dreams",
+      "antagonist": "Gun Devil",
+      "openingSong": "Kick Back by Kenshi Yonezu",
+      "mangaAuthor": "Tatsuki Fujimoto",
+      "popularityRank": 6,
+      "awards": [
+        "Crunchyroll Anime Awards 2023"
+      ],
+      "relatedAnime": []
+    },
+    {
+      "id": "6",
+      "title": "One Punch Man",
+      "imageUrl": "onepunchman.jpg",
+      "description": "One Punch Man tells the story of Saitama, a hero who can defeat any opponent with a single punch. Despite his overwhelming strength, Saitama struggles with boredom and a lack of recognition for his heroic deeds. The series combines humor, action, and satire as it explores the life of a hero who has surpassed all limits. Along the way, Saitama encounters a variety of characters, including his loyal disciple Genos and the Hero Association, which ranks heroes based on their abilities.",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Superhero"
+      ],
+      "episodes": "24",
+      "rating": 8.8,
+      "releaseYear": 2015,
+      "studio": "Madhouse",
+      "mainCharacter": "Saitama",
+      "status": "Ongoing",
+      "theme": "Heroism and Boredom",
+      "antagonist": "Garou",
+      "openingSong": "The Hero!! by JAM Project",
+      "mangaAuthor": "ONE",
+      "popularityRank": 4,
+      "awards": [
+        "Sugoi Japan Award 2016"
+      ],
+      "relatedAnime": [
+        "One Punch Man Season 2"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Haikyuu!!",
+      "imageUrl": "haiku.jpg",
+      "description": "Haikyuu!! is an inspiring sports anime that follows Shoyo Hinata, a passionate volleyball player with dreams of becoming the best. Despite his short stature, Hinata's determination and athleticism drive him to overcome challenges and compete at the highest level. Alongside his teammates on the Karasuno High volleyball team, Hinata faces formidable opponents, learns the value of teamwork, and grows both as a player and a person. The series is a celebration of perseverance, friendship, and the love of the game.",
+      "genre": [
+        "Sports",
+        "Drama",
+        "Shounen"
+      ],
+      "episodes": "85",
+      "rating": 8.9,
+      "releaseYear": 2014,
+      "studio": "Production I.G",
+      "mainCharacter": "Shoyo Hinata",
+      "status": "Completed",
+      "theme": "Determination and Teamwork",
+      "antagonist": "Ushijima Wakatoshi",
+      "openingSong": "Imagination by SPYAIR",
+      "mangaAuthor": "Haruichi Furudate",
+      "popularityRank": 7,
+      "awards": [
+        "Tokyo Anime Award 2015"
+      ],
+      "relatedAnime": [
+        "Haikyuu!!: To the Top"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "86",
+      "imageUrl": "86.jpg",
+      "description": "Set in a war-torn future, 86 follows the story of Shinei Nouzen and the members of the Spearhead Squadron, a group of young soldiers who pilot unmanned war machines to fight against the Legion, an autonomous army of drones. Despite being treated as expendable by their own government, the squadron fights bravely to protect their homeland. The series explores themes of war, discrimination, and the human cost of conflict, offering a gripping and emotional narrative.",
+      "genre": [
+        "Mecha",
+        "Sci-Fi",
+        "Drama"
+      ],
+      "episodes": "23",
+      "rating": 8.4,
+      "releaseYear": 2021,
+      "studio": "A-1 Pictures",
+      "mainCharacter": "Shinei Nouzen",
+      "status": "Ongoing",
+      "theme": "War and Discrimination",
+      "antagonist": "Legion",
+      "openingSong": "Avid by SawanoHiroyuki[nZk]:mizuki",
+      "mangaAuthor": "Asato Asato",
+      "popularityRank": 15,
+      "awards": [
+        "Crunchyroll Anime Awards 2022"
+      ],
+      "relatedAnime": []
+    },
+    {
+      "id": "9",
+      "title": "Bleach",
+      "imageUrl": "bleach.jpg",
+      "description": "Bleach follows Ichigo Kurosaki, a teenager who gains the powers of a Soul Reaper after an encounter with Rukia Kuchiki. Tasked with protecting the living world from evil spirits known as Hollows, Ichigo embarks on a journey filled with intense battles, personal growth, and revelations about his own past. The series is a blend of action, supernatural elements, and compelling character arcs, making it a classic in the shounen genre.",
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Shounen"
+      ],
+      "episodes": "366",
+      "rating": 8.6,
+      "releaseYear": 2004,
+      "studio": "Pierrot",
+      "mainCharacter": "Ichigo Kurosaki",
+      "status": "Completed",
+      "theme": "Power and Responsibility",
+      "antagonist": "Sōsuke Aizen",
+      "openingSong": "Asterisk by Orange Range",
+      "mangaAuthor": "Tite Kubo",
+      "popularityRank": 3,
+      "awards": [
+        "Animage Anime Grand Prix 2005"
+      ],
+      "relatedAnime": [
+        "Bleach: Thousand-Year Blood War"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "One Piece",
+      "imageUrl": "onepiece.jpg",
+      "description": "One Piece is an epic adventure that follows Monkey D. Luffy, a young pirate with the ability to stretch his body like rubber after eating a Devil Fruit. Luffy sets out on a journey to find the legendary treasure known as the One Piece and become the Pirate King. Along the way, he assembles a diverse crew, faces powerful enemies, and uncovers the mysteries of the world. The series is a celebration of freedom, friendship, and the pursuit of dreams, with a rich and expansive world that has captivated audiences for decades.",
+      "genre": [
+        "Adventure",
+        "Fantasy",
+        "Shounen"
+      ],
+      "episodes": "1000+",
+      "rating": 9,
+      "releaseYear": 1999,
+      "studio": "Toei Animation",
+      "mainCharacter": "Monkey D. Luffy",
+      "status": "Ongoing",
+      "theme": "Freedom and Friendship",
+      "antagonist": "Blackbeard",
+      "openingSong": "We Are! by Hiroshi Kitadani",
+      "mangaAuthor": "Eiichiro Oda",
+      "popularityRank": 1,
+      "awards": [
+        "Tokyo Anime Award 2017"
+      ],
+      "relatedAnime": []
+    }
+  ],
+  "watchlist": []
+}

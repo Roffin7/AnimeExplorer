@@ -1,0 +1,190 @@
+/* Home Container */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #0a001a, #190033); /* Deep Purple Gradient */
+}
+
+/* Content Section */
+.content {
+    max-width: 700px;
+    background: rgba(18, 0, 23, 0.9); /* Soft Transparent Box */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(134, 0, 212, 0.4);
+    backdrop-filter: blur(8px);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    color: #d0a3ff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(208, 163, 255, 0.6);
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #bfa0ff;
+    line-height: 1.6;
+}
+
+/* Slideshow Container */
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    height: 450px;
+    overflow: hidden;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(185, 122, 255, 0.5);
+}
+
+/* Slides */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+/* Anime Images */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Explore Button */
+.slideshow-container {
+    position: relative;
+    text-align: center;
+}
+
+.slideshow-container button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 15px rgba(170, 85, 255, 0.6);
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.slideshow-container button:hover {
+    background: linear-gradient(90deg, #bb00ff, #6e00ff);
+    box-shadow: 0px 4px 15px rgba(170, 85, 255, 0.6);
+    transform: translateX(-50%) scale(1.05);
+}
+
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Trending Section */
+.trending-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.anime-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.anime-card {
+    background: #1a102b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.2);
+}
+
+.anime-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.features-section {
+    padding: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #2b1a40;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(170, 85, 255, 0.3);
+}
+
+/* Community Section */
+.community-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.community-section button {
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.community-section button:hover {
+    background: linear-gradient(90deg, #bb00ff, #ff66ff);
+}

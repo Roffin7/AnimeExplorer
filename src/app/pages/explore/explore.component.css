@@ -1,0 +1,133 @@
+/* 🌟 Container */
+.container {
+    padding: 40px 20px;
+}
+
+/* 🃏 Card Styling */
+.card {
+    max-width: 320px;
+    background: #1a102b;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(170, 85, 255, 0.15);
+    margin-bottom: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(255, 105, 180, 0.25);
+}
+
+/* 📸 Image Styling */
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+/* 📦 Card Body */
+.card-body {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 🔠 Title */
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff66ff;
+}
+
+/* 📖 Description */
+.card-text {
+    font-size: 0.9rem;
+    color: #d1b3ff;
+}
+
+/* 🎭 Genre */
+.text-muted {
+    color: #a47fff !important;
+}
+
+/* 🔘 Buttons */
+.card-body .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+    margin-top: 8px;  /* Adds space between buttons */
+    transition: 0.3s ease;
+}
+
+/* View Details Button */
+.btn-primary {
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #6e00ff, #bb00ff);
+    transform: scale(1.05);
+}
+
+/* Watchlist Button */
+.btn-warning {
+    background: linear-gradient(90deg, #ffa500, #ff6600);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    background: linear-gradient(90deg, #ffa500, #ff6600);
+    transform: scale(1.05);
+}
+
+
+
+/* Genre Filter - Placed Below Navbar */
+.genre-filter-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin: 80px auto 20px auto; /* Push it below the navbar */
+}
+
+/* Label Styling */
+.genre-filter-container label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+/* Dropdown Styling */
+.genre-filter-container select {
+    background: #1c1c28;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover & Focus Effects */
+.genre-filter-container select:hover,
+.genre-filter-container select:focus {
+    background: #1c1c28;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+

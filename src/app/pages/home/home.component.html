@@ -1,0 +1,53 @@
+<div class="home-container">
+    <!-- Hero Section -->
+    <div class="content">
+        <h1>Welcome to Mystic Vault</h1>
+        <p>Your ultimate anime exploration hub! Browse trending anime, create your watchlist, and dive into a world of excitement.</p>
+    </div>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <div class="slide" *ngFor="let anime of trendingAnime; let i = index" [class.active]="i === activeSlide">
+            <img [src]="anime.imageUrl" [alt]="anime.title">
+        </div>
+        <button (click)="explore()">Let's Explore</button>
+    </div>
+
+    <!-- Trending Anime Section -->
+    <!-- <div class="trending-section">
+        <h2>🔥 Trending Now</h2>
+        <div class="anime-grid">
+            <div class="anime-card" *ngFor="let anime of trendingAnime">
+                <img [src]="anime.imageUrl" [alt]="anime.title">
+                <h3>{{ anime.title }}</h3>
+                <p>{{ anime.description }}</p>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Features Section -->
+    <div class="features-section">
+        <h2>Why Choose Mystic Vault?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <h3>🔍 Discover Anime</h3>
+                <p>Find hidden gems and explore the best anime across different genres.</p>
+            </div>
+            <div class="feature">
+                <h3>📜 Personalized Watchlist</h3>
+                <p>Create your own watchlist and track your favorite anime easily.</p>
+            </div>
+            <div class="feature">
+                <h3>🌟 Community Ratings</h3>
+                <p>See what others think and leave your own reviews.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community Section -->
+    <div class="community-section">
+        <h2>💬 Join the Community</h2>
+        <p>Connect with fellow anime lovers, discuss theories, and share recommendations.</p>
+        <button (click)="joinCommunity()">Join Now</button>
+    </div>
+</div>

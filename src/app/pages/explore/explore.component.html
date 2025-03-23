@@ -1,0 +1,30 @@
+<div class="genre-filter-container">
+    <label for="genreSelect">Filter by Genre:</label>
+    <select id="genreSelect" class="genre-select" [(ngModel)]="selectedGenre">
+        <option value="All">All</option>
+        <option *ngFor="let genre of uniqueGenres" [value]="genre">{{ genre }}</option>
+    </select>
+</div>
+
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center" *ngFor="let anime of animeList | genreFilter: selectedGenre">
+            <div class="card">
+                <img src="http://localhost:8090/anime/{{anime.imageUrl}}" class="card-img-top" alt="{{ anime.title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ anime.title }}</h5>
+                    <p class="card-text">{{ anime.description }}</p>
+                    <p class="card-text">
+                        <small class="text-muted">Genres: {{ anime.genre.join(', ') }}</small>
+                    </p>
+                    <button class="btn btn-primary mt-2" (click)="onServiceClick(anime.id)">View Details</button>
+                    <button class="btn btn-warning mt-2" (click)="toggleWatchlist(anime)">
+                        {{ isInWatchlist(anime.id) ? 'Remove from Watchlist' : 'Add to Watchlist' }}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

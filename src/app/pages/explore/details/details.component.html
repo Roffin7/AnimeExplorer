@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="anime-card">
+        <!-- Anime Image -->
+        <div class="anime-image">
+            <img [src]="'http://localhost:8090/anime/' + imageUrl" alt="{{ title }}">
+        </div>
+
+        <!-- Anime Info -->
+        <div class="anime-info">
+            <h2 class="anime-title">{{ title }}</h2>
+            <h4 class="anime-subtitle">{{ desctitle }}</h4>
+            <p class="anime-description">{{ description }}</p>
+
+            <!-- Anime Meta Details -->
+            <div class="anime-meta">
+                <div class="meta-card"><strong>Genre:</strong> {{ genre.join(', ') }}</div>
+                <div class="meta-card"><strong>Episodes:</strong> {{ episodes }}</div>
+                <div class="meta-card"><strong>Rating:</strong> {{ rating }}/10</div>
+                <div class="meta-card"><strong>Release Year:</strong> {{ releaseYear }}</div>
+                <div class="meta-card"><strong>Studio:</strong> {{ studio }}</div>
+                <div class="meta-card"><strong>Main Character:</strong> {{ mainCharacter }}</div>
+                <div class="meta-card"><strong>Status:</strong> {{ status }}</div>
+                <div class="meta-card"><strong>Theme:</strong> {{ theme }}</div>
+                <div class="meta-card"><strong>Antagonist:</strong> {{ antagonist }}</div>
+                <div class="meta-card"><strong>Opening Song:</strong> {{ openingSong }}</div>
+                <div class="meta-card"><strong>Manga Author:</strong> {{ mangaAuthor }}</div>
+                <div class="meta-card"><strong>Popularity Rank:</strong> #{{ popularityRank }}</div>
+                <div class="meta-card"><strong>Awards:</strong> {{ awards.join(', ') }}</div>
+                <div class="meta-card"><strong>Related Anime:</strong> {{ relatedAnime.join(', ') }}</div>
+            </div>
+        </div>
+    </div>
+</div>

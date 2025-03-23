@@ -1,0 +1,24 @@
+<div class="container mt-4">
+    <h2 class="text-center">My Watchlist</h2>
+
+    <div *ngIf="watchlist.length === 0" class="text-center mt-4">
+        <p>Your watchlist is empty.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center" *ngFor="let anime of watchlist">
+            <div class="card">
+                <img src="http://localhost:8090/anime/{{anime.imageUrl}}" class="card-img-top" alt="{{ anime.title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ anime.title }}</h5>
+                    <p class="card-text">{{ anime.description }}</p>
+                    <p class="card-text">
+                        <small class="text-muted">Genres: {{ anime.genre.join(', ') }}</small>
+                    </p>
+                    <button class="btn btn-primary mt-2" (click)="onServiceClick(anime.id)">View Details</button>
+                    <button class="btn btn-danger mt-2" (click)="removeFromWatchlist(anime.id)">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
