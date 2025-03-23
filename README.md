@@ -4,24 +4,49 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## About AnimeExplorer
 
-## Code scaffolding
+AnimeExplorer is a web application designed to help users explore and discover information about their favorite anime series and movies. Built with Angular, this project leverages modern web development practices to deliver a fast and responsive user experience.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Features
 
-## Build
+- **Search Functionality**: Quickly find anime by title or keywords.
+- **Detailed Information**: View detailed descriptions, ratings, and other metadata for each anime.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Dynamic Updates**: Automatically fetches the latest anime data from external APIs.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+To run this project locally, ensure you have the following installed:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
+- [Angular CLI](https://angular.io/cli) (version 17.3.13 or higher)
 
-## Running end-to-end tests
+### Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/anime-explorer.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd anime-explorer
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    ng serve
+    ```
+5. Open your browser and navigate to `http://localhost:4200/`.
 
-## Further help
+### Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
+
