@@ -1,0 +1,50 @@
+/* 🌿 Container Styling */
+.container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* 🔥 Community Header */
+  .text-center h1 {
+    color: #6a0dad;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  
+  /* 📌 Card Styling */
+  .card {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism Effect */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(106, 13, 173, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  /* 📌 Section Titles */
+  h5 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  /* 📌 Horizontal Line */
+  hr {
+    border: 1px solid rgba(106, 13, 173, 0.2);
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  
+    .text-center h1 {
+      font-size: 1.7rem;
+    }
+  
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+  

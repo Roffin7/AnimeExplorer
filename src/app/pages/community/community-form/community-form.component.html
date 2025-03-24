@@ -1,0 +1,17 @@
+<div class="post-form">
+  <div class="input-group mb-2">
+    <span class="input-group-text"><i class="bi bi-person"></i></span>
+    <input [(ngModel)]="user" class="form-control" placeholder="Your Name" />
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text"><i class="bi bi-pencil-square"></i></span>
+    <textarea
+      [(ngModel)]="message"
+      class="form-control"
+      placeholder="Share your thoughts..."
+    ></textarea>
+  </div>
+  <button (click)="submitPost()" class="btn btn-primary w-100">
+    <i class="bi bi-send"></i> Post
+  </button>
+</div>

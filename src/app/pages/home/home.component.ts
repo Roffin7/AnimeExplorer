@@ -32,6 +32,12 @@ export class HomeComponent {
   }
 
   joinCommunity() {
+    if (this.authService.isLoggedIn()) {
+      this.router.navigate(['/community']);
+    }
+    else{
+      this.router.navigate(['/login'])
+    }
   }
 }
 

@@ -7,6 +7,7 @@ import { authGuard } from './guards/auth.guard';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { DetailsComponent } from './pages/explore/details/details.component';
+import { CommunityComponent } from './pages/community/community.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'watchlist', component: WatchlistComponent, canActivate: [authGuard] },
   {path:'services/:id',component:DetailsComponent},
   { path: 'watchlist', component: WatchlistComponent },
+  { path: 'community', component: CommunityComponent, canActivate: [authGuard] },
   { path: '**', redirectTo: '' }
 ];
 

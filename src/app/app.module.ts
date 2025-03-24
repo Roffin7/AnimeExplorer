@@ -16,6 +16,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DetailsComponent } from './pages/explore/details/details.component';
 import { GenreFilterPipe } from './pipes/genre-filter.pipe';
+import { CommunityComponent } from './pages/community/community.component';
+import { CommunityFormComponent } from './pages/community/community-form/community-form.component';
+import { CommunityListComponent } from './pages/community/community-list/community-list.component';
 
 
 @NgModule({
@@ -32,6 +35,9 @@ import { GenreFilterPipe } from './pipes/genre-filter.pipe';
     SignupComponent,
     DetailsComponent,
     GenreFilterPipe,
+    CommunityComponent,
+    CommunityFormComponent,
+    CommunityListComponent,
   ],
   imports: [
     BrowserModule,

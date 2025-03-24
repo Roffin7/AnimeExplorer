@@ -1,0 +1,18 @@
+
+/* 🚀 Post Button */
+.btn-primary {
+  background: #6a0dad;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(106, 13, 173, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #5a0cb1;
+  box-shadow: 0 6px 15px rgba(106, 13, 173, 0.3);
+}
+

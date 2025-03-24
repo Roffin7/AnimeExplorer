@@ -17,4 +17,13 @@ export class AnimeService {
     return this.http.get(`http://localhost:4500/details?id=${id}`);
   }
 
+  getPosts(): Observable<any> {
+    return this.http.get('http://localhost:4500/communityposts');
+  }
+
+  addPosts(data: any): Observable<any> {
+    return this.http.post('http://localhost:4500/communityposts', data);
+  }
+  
+
 }

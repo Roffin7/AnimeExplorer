@@ -495,5 +495,37 @@
       "relatedAnime": []
     }
   ],
-  "watchlist": []
+  "watchlist": [],
+  "communityposts": [
+    {
+      "id": "1",
+      "user": "Alice",
+      "message": "I like Naruto!",
+      "imageUrl": "avatar1.png"
+    },
+    {
+      "id": "2",
+      "user": "Bob",
+      "message": "86 is amazing!",
+      "imageUrl": "avatar2.png"
+    },
+    {
+      "id": "9b66",
+      "user": "Ron",
+      "message": "I like AOT",
+      "imageUrl": "avatar3.png"
+    },
+    {
+      "id": "b29a",
+      "user": "Mike",
+      "message": "I like DBZ",
+      "imageUrl": "avatar8.png"
+    },
+    {
+      "id": "6d90",
+      "user": "Fren",
+      "message": "I like Bleach",
+      "imageUrl": "avatar4.png"
+    }
+  ]
 }
